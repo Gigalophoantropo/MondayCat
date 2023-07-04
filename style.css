@@ -1,0 +1,29 @@
+div{
+    background-color: #FFFFFFFF;
+}
+
+span{
+    background-color: #002164;
+}
+
+.h:nth-child(n){
+    background: #BC0B3C;
+    color: #FFFFFFFF;
+    height: 20px;
+}
+
+.w{
+    display: block;
+    content: "";
+    margin-top: 20px;
+}
+
+.NOC{
+    display: inline;
+    color: #000000;
+    margin: 0;
+}
+
+.NOC:nth-last-child(2n-1){
+    color: #c8b5b569;
+}
