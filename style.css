@@ -1,5 +1,27 @@
-div{
-    background-color: #FFFFFFFF;
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+  
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background: rgb(51, 51, 51);
+    padding-block: 5px;
+    color: #00FF6C;
+
+    /*Here starts sticky position*/
+
+    position: sticky;
+    top: 0;
+}
+
+.main-nav a{
+    color: #00FF6C;
 }
 
 span{
@@ -10,6 +32,7 @@ span{
     background: #BC0B3C;
     color: #FFFFFFFF;
     height: 20px;
+    display: flex;
 }
 
 .w{
